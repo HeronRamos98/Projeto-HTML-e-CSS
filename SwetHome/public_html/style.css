@@ -89,7 +89,7 @@ footer {
 }
 
 .copyright {
-	color: #FFFFFF;
+	color: #000000;
 	font-size: 13px;
 	margin: 20px 0 0;
 }
@@ -240,13 +240,17 @@ td, th {
     opacity: 0.3;
 }
 
-.video {
-	width: 560px;
-	margin: 2em auto;
+.imagem-produto {
+    width: 60%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
+
+
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo {
         width: auto;
     }
 
